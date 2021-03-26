@@ -15,18 +15,18 @@
   font-size: 25px; 
 }
 .active, .dropdown-menu .dropdown-item:active a:hover {
-  background-color: honeydew !important;
+  background-color: black !important;
 }
 .dropdown-item {
-  color: #213159 !important;
+  color: cadetblue !important;
 }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
-  background-color: #213159 !important;
+  color: #213159 !important;
 }
 
 .nav-link:hover {
   background-blend-mode: lighten;
-  background-color: #213159 !important;
+  color: #213159 !important;
  }
 
 .navbar-brand:hover {
@@ -36,6 +36,31 @@ color: #213159 !important;
 a {
   color: #213159;
   font-size: 15px;
+}
+
+/* Drop Drown in Nav */
+@media(max-width: 992px) {
+  .navbar-expand-lg {
+  background-color: #213159 !important;
+  }
+  .navbar {
+    max-height: none;
+    padding: inherit;
+  }
+  .navbar div {
+    margin: inherit;
+    background-color: white;
+  }
+  .navbar-brand {
+    padding: 10px !important;
+  }
+  button{
+    margin-right: 30px;
+  }
+  button:focus {
+    outline: 1px dotted;
+    outline: auto 5px;
+  }
 }
 
 /* Body Elements */
