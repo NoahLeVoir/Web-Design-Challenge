@@ -98,6 +98,15 @@ img{
   height:50% !important;
 }
 
+/* Boxes */
+.box {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  padding: 10px 30px 10px;
+  color: #213159;
+  background-color: honeydew;
+}
+
 /* Footer */
 /* Footer */
 footer {
