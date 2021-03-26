@@ -69,6 +69,22 @@ a {
 /* Body Elements */
 
 
+
+/* Images */
+img{
+  width:100% !important;
+  height:100% !important;
+}
+.active, .panel:hover {
+  border-color:#213159;
+  border-style: solid;
+  
+}
+.vizualization {
+  width:50% !important;
+  height:50% !important;
+}
+
 /* Footer */
 /* Footer */
 footer {
