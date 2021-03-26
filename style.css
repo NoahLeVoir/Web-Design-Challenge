@@ -1,4 +1,41 @@
 /* Nav Bar */
+.navbar {
+  max-height: 50px;
+}
+.navigation .navbar-brand {
+  color: white;
+  margin-left: 0px;
+  padding: inherit;
+  font-weight: bold;
+  background-color: cadetblue;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.navbar {
+  background-color: cadetblue;
+  font-size: 25px; 
+}
+.active, .dropdown-menu .dropdown-item:active a:hover {
+  background-color: honeydew !important;
+}
+.dropdown-item {
+  color: #213159 !important;
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #213159 !important;
+}
 
+.nav-link:hover {
+  background-blend-mode: lighten;
+  background-color: #213159 !important;
+ }
+
+.navbar-brand:hover {
+color: #213159 !important;
+}
+
+a {
+  color: #213159;
+  font-size: 15px;
+}
 
 /* Body Elements */
