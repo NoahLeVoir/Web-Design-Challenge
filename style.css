@@ -1,6 +1,9 @@
 /* Nav Bar */
 .navbar {
-  max-height: 50px;
+  max-height: 55px;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #213159;
 }
 .navigation .navbar-brand {
   color: white;
@@ -35,7 +38,7 @@ color: #213159 !important;
 
 a {
   color: #213159;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /* Drop Drown in Nav */
@@ -64,3 +67,23 @@ a {
 }
 
 /* Body Elements */
+
+
+/* Footer */
+/* Footer */
+footer {
+  background-color: cadetblue;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: #213159;
+  color: white;
+  min-height: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  }
