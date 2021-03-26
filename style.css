@@ -67,8 +67,21 @@ a {
 }
 
 /* Body Elements */
+/* Title */
+.title {
+  color: #213159;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-top: 10px;
+}
 
-
+/* Paragraph */
+p {
+/* CHANGE COLOR OF TEXT Later once background gif is picked */
+  color: red;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+}
 
 /* Images */
 img{
