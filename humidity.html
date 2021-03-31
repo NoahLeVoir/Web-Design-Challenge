@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Web-Design-Challenge</title>
+  <title>Web-Design-Challenge-data</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -29,46 +29,38 @@
                       Plots
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                     <a class="dropdown-item" href="html_pages/cloudiness.html">Cloudiness Data</a>
-                     <a class="dropdown-item" href="html_pages/humidity.html">Humidity Data</a>
-                     <a class="dropdown-item" href="html_pages/temperature.html">Temperature Data</a>
-                     <a class="dropdown-item" href="html_pages/wind_speed.html">Wind Speed Data</a>
+                     <a class="dropdown-item" href="https:/www.google.com/">Google test</a>
+                     <a class="dropdown-item" href="https://www.youtube.com/">YouTube test</a>
                   </div>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" style= "color: white;" href="html_pages/comparison.html">Comparison</a>
+                  <a class="nav-link" style= "color: white;">Comparison</a>
                   <!-- Need to add href for Comparison Page to this line -->
               </li>
               <li class="nav-item">
-                  <a class="nav-link" style= "color: white;" href="html_pages/data.html">Data</a>
+                  <a class="nav-link" style= "color: white;">Data</a>
+                  <!-- Need to add href for Data Page to this line -->
               </li>
           </ul>
       </div>
   </nav>
 </div>
 
+  
+  </div>
 
-<!-- Page Content and Links -->
-<!-- Header -->
-<!-- <div class="col-lg-8 col-md-12">
-    <div style="padding-top: 15px;">
-        <h2 class="header">Does the temperature <i>actually</i> rise the closer you are to the equator?</h2>
-    </div>
-</div> -->
 
-<!-- Main Paragraph and Opening -->
+<!-- Page Content-->
 <div class="container">
   <div class="row">
       <div class="col-lg-8 col-md-12">
           <div class="box" style="padding-bottom: 20px;">
-              <h3 class="title">Does the temperature <i>actually</i> rise the closer you are to the equator?</h3>
+              <h3 class="title">Latitude v Cloudiness:<br>Graph & Analysis</br></h3>
               <hr>
-              <img src="Images/globe.jpeg" class="vizualization rounded float-left" alt="Hand holding globe to show equator">
-              <p>For the UMN Data Visualization and Analytics bootcamp homework number 9 we sought to answer this exact question.
-                While we all know it obviously does... is there a way that we could prove it?</p>
-              <p>In homework 9 we pulled data from the OpenWeatherMap API on roughly 500 cities around the world.
-               We used that data to create a dataset we could analyize and plot. We used Python code in a jupyter notebook and the  Matplotlib functionality to plot various aspects of the weather vs. latitude.</p>
-                <p> We collected data on four different aspects of weather to see how they were potentially correlated with their distance from the equator. The four tested variables in descending order as they appear on the right are:
+              <img src="Images/visualizations/Latitude v Humidity.png" class="vizualization rounded float-left" alt="Hand holding globe to show equator">
+              <p>For this comparison we are looking at how the Humidity % of a city could be correlated to it's distance from the equator. The data is a snapshot of roughly 500 cities taken at random from the OpenWeatherMap API on February 12th, 2021.</p>
+              <p>As displayed in the graph, the data seems to suggest </p>
+                <p> In addition to the this analysis, we collected data on three other aspects of weather to see how they were potentially correlated with their distance from the equator. The four tested variables in descending order as they appear on the right are:
                 <ul>
                   <li>Cloudiness</li>
                   <li>Humidity Percentage</li>
@@ -115,7 +107,7 @@
           </div>
       </div>
   </div>
-</div>
+</div> 
 
 
 <!-- Footer -->
