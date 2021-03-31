@@ -66,6 +66,14 @@ a {
   }
 }
 
+/* Page Header Element */
+.header {
+  color: white;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
 /* Body Elements */
 /* Title */
 .title {
@@ -75,12 +83,11 @@ a {
   padding-top: 10px;
 }
 
-/* Paragraph */
+/* Paragraphs */
 p {
-/* CHANGE COLOR OF TEXT Later once background gif is picked */
-  color: red;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 25px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
 
 /* Images */
@@ -125,3 +132,12 @@ footer {
   width: 100%;
   padding-top: 10px;
   }
+
+  /* Body */
+body {
+  background-image: url("https://getwallpapers.com/wallpaper/full/1/9/1/174703.jpg");
+  height: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
