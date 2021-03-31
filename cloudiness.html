@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web-Design-Challenge-data</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- I found this script online to make dropdown menus -->
+<!-- It brings in jquerys, so it is a test -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- Navigation Menu -->
+<div class="navigation">
+  <nav class="navbar navbar-expand-lg navbar-light bg-honeydew">
+      <a class="navbar-brand" style="background-color: clear;" href="index.html">Weather Data</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" style= "color: white;" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                     <a class="dropdown-item" href="https:/www.google.com/">Google test</a>
+                     <a class="dropdown-item" href="https://www.youtube.com/">YouTube test</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" style= "color: white;">Comparison</a>
+                  <!-- Need to add href for Comparison Page to this line -->
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" style= "color: white;">Data</a>
+                  <!-- Need to add href for Data Page to this line -->
+              </li>
+          </ul>
+      </div>
+  </nav>
+</div>
+
+  
+  </div>
+
+
+<!-- Page Content-->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-12">
+            <div class="box" style="padding-bottom: 20px;">
+                <h3 class="title">Latitude v Cloudiness:<br>Graph & Analysis</br></h3>
+                <hr>
+                <img src="Images/visualizations/Latitude v Cloudiness.png" class="vizualization rounded float-left" alt="Hand holding globe to show equator">
+                <p>For this comparison we are looking at how the cloudiness of a city could be correlated to it's distance from the equator. The data is a snapshot of roughly 500 cities taken at random from the OpenWeatherMap API on February 12th, 2021.</p>
+                <p>As displayed in the graph, the data seems to suggest that that there is little to no discernable correlation between the level of cloudiness and the latitude, as the points are dispersed across the chart.</p>
+                  <p> In addition to the this analysis, we collected data on three other aspects of weather to see how they were potentially correlated with their distance from the equator. The four tested variables in descending order as they appear on the right are:
+                  <ul>
+                    <li>Cloudiness</li>
+                    <li>Humidity Percentage</li>
+                    <li>Temperature</li>
+                    <li>and Wind Speed</li>
+                  </ul>
+                </p>
+                <p>
+                  The four graphs to the right display our findings. You can click on a graph to learn more about the specific findings from homework 9's analysis!
+                </p>
+            </div>
+        </div>
+  
+  
+        <!-- Side Bar Visualziations Previews -->
+        <div class="col-lg-4 col-md-12">
+            <div class="box">
+                <h3 class="title" style = "text-align: center;">Visualizations</h3>
+                <hr>
+                <div class="container">  
+                      <div class="col-12" style="padding-bottom: 30px;">
+                          <a href="cloudiness.html">
+                          <img class="panel" src="Images/visualizations/Latitude v Cloudiness.png" alt="Cloudiness Graph">
+                          </a>
+                      </div>
+                      <div class="col-12" style="padding-bottom: 30px;">
+                          <a href="html_pages/humidity.html">
+                          <img class="panel" src="Images/visualizations/Latitude v Humidity.png" alt="Humidity Graph">
+                          </a>
+                      </div>
+                  </div>
+                      <div class="col-12" style="padding-bottom: 30px;">
+                          <a href="html_pages/temperature.html">
+                          <img class="panel" src="Images/visualizations/Latitude v Temperature (F).png" alt="Temperature Graph">
+                          </a>
+                      </div>
+                      <div class="col-12" style="padding-bottom: 30px;">
+                          <a href="html_pages/wind_speed.html">
+                              <img class="panel" src="Images/visualizations/Latitude v Wind Speed.png" alt="Wind Speed Graph">
+                          </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div> 
+
+
+<!-- Footer -->
+<footer>
+  <div
+  class="footer"> Noah LeVoir - HW 11 UMN Data Visualization and Analytics Bootcamp
+  </div>
+</footer>
+
+</body>
+
+</html>
