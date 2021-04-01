@@ -3,11 +3,20 @@ Homework 11 for UMN Data Visualization and Analytics bootcamp
 
 ## Noah LeVoir
 
+link to webpage submission: https://noahlevoir.github.io/Web-Design-Challenge/
+
 This repo contains the following:
-- Update before submitting
+- An Images folder
+- A Rersources folder with:
+  - cities.csv from hw 9
+  - CSV_to_HTML.ipynb
+  - An assets folder with images for the readme instructions
+- 7 html files for the 7 pages available
+- A css file with the style updates for the html
 
 
 The following are the instructions given for this homework assignment:
+
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
 ## Background
