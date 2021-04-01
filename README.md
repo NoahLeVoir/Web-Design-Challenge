@@ -6,8 +6,9 @@ Homework 11 for UMN Data Visualization and Analytics bootcamp
 link to webpage submission: https://noahlevoir.github.io/Web-Design-Challenge/
 
 This repo contains the following:
-- An Images folder
-- A Rersources folder with:
+- An Images folder with:
+  - The exported images from hw 9
+- A Resources folder with:
   - cities.csv from hw 9
   - CSV_to_HTML.ipynb
   - An assets folder with images for the readme instructions
